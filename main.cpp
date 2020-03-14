@@ -3,5 +3,9 @@
 
 int main()
 {
+    Doubly dll;
+    dll.insertNode();
+    dll.displayNode();
+    return 0;
     
 }
