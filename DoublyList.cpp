@@ -24,6 +24,7 @@ void Doubly::insertNode() {
 		temp = new Node;
 		temp->data = value;
 		temp->prev = nullptr;
+		temp->next = nullptr;
 
 		if (head != nullptr)
 		{

@@ -2,8 +2,9 @@
 
 class Node {
 public:
+	Node* prev;
 	int data;
-	Node* next, * prev;
+	Node* next;
 };
 
 class Doubly
@@ -16,7 +17,7 @@ public:
 	void insertNode();
 	void displayNode();
 
-private:
+
 
 };
 
